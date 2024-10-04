@@ -14,27 +14,27 @@ global.authFile = `MysticSession`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['5214461281232', 'KeroppiBot', true],
-  ['5214461281232', 'Colaborador', true],
-  ['5214461281232', 'AntonyxT', true],
+  ['528336105471', 'TILIN Bot', true],
+  ['528336105471', 'Colaborador', true],
+  ['528336105471', 'TILIN', true],
 ];
 
-global.suittag = ['5214461281232'];
-global.prems = ['5214461281232'];
+global.suittag = ['528336105471'];
+global.prems = ['528336105471'];
 
 // API
 global.BASE_API_DELIRIUS = "https://deliriusapi-official.vercel.app";
 
-global.packname = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈';
-global.author = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈';
-global.wm = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈';
+global.packname = 'TILIN BOT';
+global.author = 'TILIN';
+global.wm = 'TILIN BOT';
 global.idioma = 'es';
-global.ig = '@Antony.xit1';
-global.etiqueta = 'ACTIVENSE KEROPPI BOT LES HABLA';
-global.emojietiqueta = '🍀';
-global.titulowm = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈';
-global.titulowm2 = `𝐊𝐄𝐑𝐎𝐏𝐏𝐈`
-global.igfg = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈';
+global.ig = '@tilin.ff.23';
+global.etiqueta = 'ACTIVENSE TILIN BOT LES HABLA';
+global.emojietiqueta = '🫠';
+global.titulowm = 'TILIN BOT';
+global.titulowm2 = `TILIN BOT`
+global.igfg = 'TILIN BOT';
 global.wait = '*_[ ⏳ ] Cargando..._*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -55,15 +55,15 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\n𝐊𝐄𝐑𝐎𝐏𝐏𝐈`;
-global.gt = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈';
-global.mysticbot = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈';
-global.channel = 'https://chat.whatsapp.com/L7VhOnhSp6i4Ir6RIfo66K';
-global.md = 'https://chat.whatsapp.com/L7VhOnhSp6i4Ir6RIfo66K';
-global.mysticbot = 'https://chat.whatsapp.com/L7VhOnhSp6i4Ir6RIfo66K';
+global.gt = 'TILIN BOT';
+global.mysticbot = 'TILIN BOT ';
+global.channel = 'https://chat.whatsapp.com/CJ7ZpW077I75tDQX4fJOFM';
+global.md = 'https://chat.whatsapp.com/CJ7ZpW077I75tDQX4fJOFM';
+global.mysticbot = 'https://chat.whatsapp.com/CJ7ZpW077I75tDQX4fJOFM';
 global.waitt = '*_[ ⏳ ] Cargando..._*';
 global.waittt = '*_[ ⏳ ] Cargando..._*';
 global.waitttt = '*_[ ⏳ ] Cargando..._*';
-global.nomorown = '5214461281232';
+global.nomorown = '528336105471';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
