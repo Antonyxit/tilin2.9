@@ -54,7 +54,7 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝐊𝐄𝐑𝐎𝐏𝐏𝐈`;
+global.wm2 = `${dia} ${fecha}\nTILIN`;
 global.gt = 'TILIN BOT';
 global.mysticbot = 'TILIN BOT ';
 global.channel = 'https://chat.whatsapp.com/CJ7ZpW077I75tDQX4fJOFM';
