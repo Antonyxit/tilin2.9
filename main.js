@@ -131,12 +131,12 @@ const connectionOptions = {
     logger: Pino({ level: 'silent' }),
     printQRInTerminal: opcion === '1' || methodCodeQR,
     mobile: MethodMobile,
-    browser: opcion === '1' ? ['𝐊𝐄𝐑𝐎𝐏𝐏𝐈', 'Safari', '2.0.0'] : methodCodeQR ? ['𝐊𝐄𝐑𝐎𝐏𝐏𝐈', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
+    browser: opcion === '1' ? ['Tilin bot', 'Safari', '2.0.0'] : methodCodeQR ? ['tilin bot', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
     auth: {
         creds: state.creds,
         keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: 'fatal' }).child({ level: 'fatal' })),
     },
-    waWebSocketUrl: 'wss://web.whatsapp.com/ws/chat?ED=CAIICA',
+    waWebSocketUrl: 'https://chat.whatsapp.com/CJ7ZpW077I75tDQX4fJOFM',
     markOnlineOnConnect: true,
     generateHighQualityLinkPreview: true,
     getMessage: async (key) => {
@@ -396,7 +396,7 @@ global.reloadHandler = async function(restatConn) {
     isInit = true;
   }
   if (!isInit) {
-    conn.ev.off('messages.upsert', conn.handler);
+    conn.ev.off('messages.ups6ert', conn.handler);
     conn.ev.off('group-participants.update', conn.participantsUpdate);
     conn.ev.off('groups.update', conn.groupsUpdate);
     conn.ev.off('message.delete', conn.onDelete);
